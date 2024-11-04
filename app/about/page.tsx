@@ -1,6 +1,5 @@
 import AboutSection from "@/components/about/AboutSection";
 import StackEditing from "@/components/about/StackEditing";
-import Hero from "@/components/home/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Footer from "@/components/ui/Footer";
 import { FaHome, FaUser } from "react-icons/fa";

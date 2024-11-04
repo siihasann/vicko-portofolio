@@ -3,6 +3,11 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { cn } from "@/utils/cn";
 
+type CardType = {
+  title: string;
+  src: string;
+};
+
 export const Card = React.memo(
   ({
     card,
@@ -10,7 +15,7 @@ export const Card = React.memo(
     hovered,
     setHovered,
   }: {
-    card: any;
+    card: CardType;
     index: number;
     hovered: number | null;
     setHovered: React.Dispatch<React.SetStateAction<number | null>>;
@@ -31,7 +36,7 @@ export const Card = React.memo(
       />
       <div
         className={cn(
-          "absolute inset-0 bg-black/50 flex items-end py-8 px-4 transition-opacity duration-300",
+          "absolute inset-0 bg-black/20 flex items-end py-8 px-4 transition-opacity duration-300",
           hovered === index ? "opacity-100" : "opacity-0"
         )}
       >
@@ -44,11 +49,6 @@ export const Card = React.memo(
 );
 
 Card.displayName = "Card";
-
-type CardType = {
-  title: string;
-  src: string;
-};
 
 export function FocusCards({ cards }: { cards: CardType[] }) {
   const [hovered, setHovered] = useState<number | null>(null);

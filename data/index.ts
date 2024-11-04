@@ -330,3 +330,12 @@ export const galleryData: GalleryItem[] = [
     description: "Stylish fashion photography"
   }
 ];
+
+export const priceData = [
+  { title: "Basic Plan", price: "$10/month", features: ["Feature A", "Feature B", "Feature C"] },
+  { title: "Standard Plan", price: "$20/month", features: ["Feature A", "Feature B", "Feature C", "Feature D"] },
+  { title: "Standard Plan", price: "$20/month", features: ["Feature A", "Feature B", "Feature C", "Feature D"] },
+  { title: "Standard Plan", price: "$20/month", features: ["Feature A", "Feature B", "Feature C", "Feature D"] },
+  { title: "Standard Plan", price: "$20/month", features: ["Feature A", "Feature B", "Feature C", "Feature D"] },
+  { title: "Premium Plan", price: "$30/month", features: ["Feature A", "Feature B", "Feature C", "Feature D", "Feature E"] }
+];

@@ -5,7 +5,6 @@ import Services from "@/components/home/Services";
 import Testimonial from "@/components/home/Testimonial";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Footer from "@/components/ui/Footer";
-import Image from "next/image";
 import { FaHome, FaUser } from "react-icons/fa";
 
 export default function Home() {
