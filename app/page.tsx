@@ -1,4 +1,3 @@
-import Grid from "@/components/home/Grid";
 import Hero from "@/components/home/Hero";
 import HomeAbout from "@/components/home/HomeAbout";
 import RecentProject from "@/components/home/RecentProject";
