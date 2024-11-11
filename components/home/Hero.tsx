@@ -7,7 +7,7 @@ import { LogoHero } from "../ui/LogoHero";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-28">
+    <div className="pb-20 pt-32">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
