@@ -8,7 +8,7 @@ const AboutSection = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="relative min-h-screen w-full pb-20 pt-28">
+    <div className="relative min-h-screen w-full pb-20 pt-36">
       {/* Spotlight Effects */}
       <div>
         <Spotlight
@@ -49,7 +49,7 @@ const AboutSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              A few words about me
+              Beberapa kata tentang saya
             </motion.p>
           </div>
 
@@ -69,7 +69,7 @@ const AboutSection = () => {
               >
                 {/* Black and White Image */}
                 <img
-                  src="/aw1.jpg" // Pastikan untuk mengganti dengan path gambar Anda
+                  src="/aw1.jpg" 
                   alt="Profile"
                   className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${
                     isHovered ? 'opacity-0' : 'opacity-100'
@@ -77,7 +77,7 @@ const AboutSection = () => {
                 />
                 {/* Colored Image */}
                 <img
-                  src="/aw1.jpg" // Pastikan untuk mengganti dengan path gambar yang sama
+                  src="/aw1.jpg" 
                   alt="Profile Colored"
                   className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${
                     isHovered ? 'opacity-100' : 'opacity-0'
@@ -96,20 +96,20 @@ const AboutSection = () => {
               <h2 className="text-2xl font-semibold mb-4">Intro</h2>
               
               <TextGenerateEffect 
-                words="Developer and art director based in Nice, France"
+                words="I'm Ahmad Vicko Freelance Fotografer based in Gentan, Surakarta"
                 className="text-xl mb-4"
               />
 
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Whether collaborating with teams or leading design projects, my attention to detail and dedication to excellence have earned me a reputation for delivering exceptional results.
+              Saya memulai dunia fotografi dari tahun 2021, saya memulai semuanya secara otodidak dan sudah mengimplementasikan beberapa jenis teknik fotografi dengan mengikuti kelas online dan beberapa kegiatan hunting bersama.
               </p>
 
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Whether collaborating with teams or leading design projects, my attention to detail and dedication to excellence have earned me a reputation for delivering exceptional results.
+              Selain fotografi saja juga membuka jasa desain. Seperti desain kaos, desain banner, desain undangan lipat, undangan online, cetak stiker, desain menu.
               </p>
 
               <p className="text-gray-600 dark:text-gray-300">
-              Whether collaborating with teams or leading design projects, my attention to detail and dedication to excellence have earned me a reputation for delivering exceptional results.
+                Jika kalian mencari orang yang seseorang yang dapat bekerja sama, mengerjakan proyek terbaik kalian, hubungi saya dan mari membuat sesuatu yang lebih menarik.
               </p>
 
               {/* Signature/Logo */}

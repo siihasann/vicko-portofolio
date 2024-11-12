@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaFacebook, FaGithub, FaGlobe, FaTiktok } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaTiktok } from 'react-icons/fa';
 
 const Profile = () => {
     return (
@@ -19,21 +19,28 @@ const Profile = () => {
                 <h2 className="text-2xl font-bold text-white mt-2">Ahmad Vicko</h2>
                 <p className="text-[#b3b3b3]">Freelance Photographer</p>
                 <div className="flex items-center mt-4 space-x-4">
-                    <a href="#" className="text-[#b3b3b3] hover:text-white transition duration-200">
+                    <a href="https://www.instagram.com/vickoawaw/profilecard/?igsh=bHZhZmd2Mm5oaXR3"
+                        className="text-[#b3b3b3] hover:text-white transition duration-200"
+                        target="_blank"  // Open link in a new tab
+                        rel="noopener noreferrer"  // Security measure
+                    >
                         <FaInstagram size={24} />
                     </a>
-                    <a href="#" className="text-[#b3b3b3] hover:text-white transition duration-200">
+                    <a href="https://www.facebook.com/profile.php?id=100036887863390&mibextid=LQQJ4d"
+                        className="text-[#b3b3b3] hover:text-white transition duration-200"
+                        target="_blank"  // Open link in a new tab
+                        rel="noopener noreferrer"  // Security measure
+                    >
                         <FaFacebook size={24} />
                     </a>
-                    <a href="#" className="text-[#b3b3b3] hover:text-white transition duration-200">
+                    <a href="https://www.tiktok.com/@anakpapabaikhati?_t=8rL0P1Oc1dR&_r=1"
+                        className="text-[#b3b3b3] hover:text-white transition duration-200"
+                        target="_blank"  // Open link in a new tab
+                        rel="noopener noreferrer"  // Security measure
+                    >
                         <FaTiktok size={24} />
                     </a>
-                    <a href="#" className="text-[#b3b3b3] hover:text-white transition duration-200">
-                        <FaGlobe size={24} />
-                    </a>
-                    <a href="#" className="text-[#b3b3b3] hover:text-white transition duration-200">
-                        <FaGithub size={24} />
-                    </a>
+
                 </div>
             </div>
         </div>

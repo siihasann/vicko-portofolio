@@ -8,18 +8,6 @@ const StackEditing = () => {
     { name: 'Tailwind', icon: '/icons/tailwind.svg', color: 'text-blue-400' },
     { name: 'Vercel', icon: '/icons/vercel.svg', color: 'text-white' },
     { name: 'Prisma', icon: '/icons/prisma.svg', color: 'text-white' },
-    { name: 'Planetscale', icon: '/icons/planetscale.svg', color: 'text-blue-600' },
-    { name: 'NextJs', icon: '/icons/nextjs.svg', color: 'text-pink-500' },
-    { name: 'Express', icon: '/icons/express.svg', color: 'text-pink-400' },
-    { name: 'Notion', icon: '/icons/notion.svg', color: 'text-white' },
-    { name: 'Ion', icon: '/icons/ion.svg', color: 'text-orange-500' },
-    { name: 'Postman', icon: '/icons/postman.svg', color: 'text-blue-500' },
-    { name: '1Password', icon: '/icons/1password.svg', color: 'text-blue-400' },
-    { name: 'Outline', icon: '/icons/outline.svg', color: 'text-white' },
-    { name: 'Figma', icon: '/icons/figma.svg', color: 'text-purple-400' },
-    { name: 'Photoshop', icon: '/icons/photoshop.svg', color: 'text-blue-500' },
-    { name: 'Illustrator', icon: '/icons/illustrator.svg', color: 'text-orange-500' },
-    { name: 'Lightroom', icon: '/icons/lightroom.svg', color: 'text-blue-600' }
   ];
 
   return (
@@ -28,9 +16,9 @@ const StackEditing = () => {
       <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-700 to-transparent mb-12" />
 
       <div className="mb-8">
-        <h2 className="text-4xl font-serif italic text-white mb-4">Stack</h2>
+        <h2 className="text-4xl font-bold text-white mb-4">Aplikasi Editing</h2>
         <p className="text-gray-400">
-          Some of the software and technologies I use on a daily basis
+        Beberapa perangkat lunak dan teknologi yang saya gunakan sehari-hari
         </p>
       </div>
 

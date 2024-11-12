@@ -72,35 +72,38 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Undangan Lipat",
+    des: "Undangan lipat dengan desain elegan yang akan membuat acara Anda semakin spesial.",
+    img: "/undangan-lipat.webp",
+    link: "https://wa.me/62895363045374",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p1.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Undangan Online",
+    des: "Undangan online yang praktis dan modern. Kirimkan undangan acara Anda dengan desain yang menarik melalui email atau media sosial dengan sentuhan kreatif kami.",
+    img: "/undangan-online.webp",
+    link: "https://wa.me/62895363045374",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p1.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Desain Kaos",
+    des: "Kami menawarkan desain kaos yang dapat disesuaikan dengan gaya dan pesan Anda, baik untuk koleksi pribadi, acara spesial, atau keperluan promosi.",
+    img: "/kaos.webp",
+    link: "https://wa.me/62895363045374",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p1.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Desain Menu",
+    des: "Kami menyediakan desain menu yang sesuai dengan tema bisnis Anda untuk pengalaman pelanggan yang lebih baik.",
+    img: "/menu-makan.webp",
+    link: "https://wa.me/62895363045374",
+  },
+  {
+    id: 5,
+    title: "Desain Banner",
+    des: "Kami membuat banner yang menarik perhatian dan mudah dibaca, menjadikannya alat promosi yang efektif.",
+    img: "/banner.webp",
+    link: "https://wa.me/62895363045374"
   },
 ];
 
@@ -204,15 +207,18 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/instagram.svg",
+    link: "https://www.instagram.com/vickoawaw/profilecard/?igsh=bHZhZmd2Mm5oaXR3"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/tiktok.png",
+    link: "https://www.tiktok.com/@anakpapabaikhati?_t=8rL0P1Oc1dR&_r=1"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/facebook.svg",
+    link: "https://www.facebook.com/profile.php?id=100036887863390&mibextid=LQQJ4d"
   },
 ];
 
@@ -326,9 +332,87 @@ export const galleryData: GalleryItem[] = [
   {
     title: "Fashion Items",
     src: "/p1.webp",
+    category: "Graduation",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Graduation",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Graduation",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Graduation",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Graduation",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Graduation",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Private Foto",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Private Foto",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Private Foto",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Private Foto",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Private Foto",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Private Foto",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
+    category: "Private Foto",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Fashion Items",
+    src: "/p1.webp",
     category: "Product",
     description: "Stylish fashion photography"
-  }
+  },
 ];
 
 export const priceData = [

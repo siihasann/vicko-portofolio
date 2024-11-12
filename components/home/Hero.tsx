@@ -4,10 +4,11 @@ import MagicButton from "../ui/MagicButton";
 import { Spotlight } from "../ui/Spotlight";
 import { TextGenerateEffect } from "../ui/TextGenerate";
 import { LogoHero } from "../ui/LogoHero";
+import HomeContactButton from "../ui/ContactButton";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-32">
+    <div className="pb-10 pt-48">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -59,13 +60,7 @@ const Hero = () => {
             Hi! I&apos;m Ahmad Vicko, freelance fotografer based in Surakarta.
           </p>
 
-          <a href="#about">
-            <MagicButton
-              title="Contact Me"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <HomeContactButton />
         </div>
       </div>
     </div>
