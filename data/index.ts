@@ -110,35 +110,60 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, ",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Hasil fotonya benar-benar luar biasa! Setiap momen berhasil ditangkap dengan indah, membuat kenangan lamaran kami semakin tak terlupakan.",
+    name: "Tya",
+    title: "Lamaran (Engagement)",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Fotografernya sangat profesional dan detail dalam setiap pengambilan gambar. Foto lamaran dan wedding kami jadi sangat berkesan!",
+    name: "Fani",
+    title: "Lamaran & Wedding",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Terima kasih banyak untuk sesi privat foto yang menyenangkan! Sangat puas dengan hasil yang natural dan berkualitas tinggi.",
+    name: "Az Zahra",
+    title: "Privat Foto",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project..",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Kami sangat puas dengan hasil foto pernikahan kami! Setiap foto berhasil menampilkan emosi hari spesial kami. Terima kasih!",
+    name: "Dina",
+    title: "Wedding",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Sangat suka dengan hasil foto wisuda saya! Pengambilan anglenya pas dan membuat momen wisuda jadi lebih bermakna.",
+    name: "Oza",
+    title: "Wisuda",
+  },
+  {
+    quote:
+      "Fotografer yang ramah dan profesional! Hasil foto wisuda saya sangat memuaskan dan natural. Terima kasih!",
+    name: "Zainal",
+    title: "Wisuda",
+  },
+  {
+    quote:
+      "Sesi foto prewed yang santai dan menyenangkan! Hasilnya sangat memuaskan dan sesuai dengan harapan kami.",
+    name: "Hernawan",
+    title: "Prewed",
+  },
+  {
+    quote:
+      "Fotografernya sangat sabar dan kreatif! Sesi foto prewed kami menjadi pengalaman yang menyenangkan dengan hasil yang luar biasa.",
+    name: "Nurwanda",
+    title: "Prewed",
+  },
+  {
+    quote:
+      "Proses foto lamaran berjalan sangat lancar dan nyaman. Sangat merekomendasikan untuk momen-momen penting!",
+    name: "Meita",
+    title: "Lamaran",
   },
 ];
+
 
 export const companies = [
   {

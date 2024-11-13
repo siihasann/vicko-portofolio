@@ -8,7 +8,7 @@ import { PinContainer } from "../ui/PinCard";
 const RecentProjects = () => {
     return (
         <div className="py-10">
-            <h1 className="heading py-10">
+            <h1 className="heading py-10 text-[30px] md:text-5xl lg:text-6xl">
                 Selain Fotografi Saya Membuka{" "}
                 <span className="text-purple">Jasa Desain</span>
             </h1>

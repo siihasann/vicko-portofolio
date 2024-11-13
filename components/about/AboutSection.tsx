@@ -96,7 +96,7 @@ const AboutSection = () => {
               <h2 className="text-2xl font-semibold mb-4">Intro</h2>
               
               <TextGenerateEffect 
-                words="I'm Ahmad Vicko Freelance Fotografer based in Gentan, Surakarta"
+                words="I'm Ahmad Vicko Freelance Fotografer based in Surakarta"
                 className="text-xl mb-4"
               />
 

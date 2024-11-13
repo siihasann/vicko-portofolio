@@ -5,7 +5,7 @@ import HomeContactButton from "../ui/ContactButton";
 
 const Hero = () => {
   return (
-    <div className="pb-10 lg:pt-24 pt-48">
+    <div className="pb-10 lg:pt-24 pt-36">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -53,7 +53,7 @@ const Hero = () => {
             className="text-center text-[30px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-6 text-sm md:text-sm lg:text-2xl">
+          <p className="text-center md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Ahmad Vicko, freelance fotografer based in Surakarta.
           </p>
 

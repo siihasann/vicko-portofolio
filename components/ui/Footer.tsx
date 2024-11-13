@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
+        <h1 className="heading text-[30px] md:text-5xl lg:text-6xl lg:max-w-[45vw]">
           Wujudkan proyek terbaik <span className="text-purple">kamu</span>, mari membuat sesuatu yang menarik.
         </h1>
         <p className="text-white-200 md:mt-10 mt-5 text-center">

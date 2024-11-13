@@ -6,8 +6,8 @@ const Services = () => {
   return (
       <div className='py-20'>
           <h1 className="heading">
-                My{" "}
-                <span className="text-purple">Perice List</span>
+            Type of{" "}
+                <span className="text-purple">photo session</span>
             </h1>
           <div className='max-w-5xl mx-auto px-8'>
               <HoverEffect
