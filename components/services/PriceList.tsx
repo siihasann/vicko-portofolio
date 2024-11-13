@@ -1,6 +1,5 @@
 import { priceData } from '@/data';
 import React from 'react';
-import HomeContactButton from '../ui/ContactButton';
 import ContactButtonPesan from '../ui/ContactButtonPesan';
 
 const PriceList = () => {
