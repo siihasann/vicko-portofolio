@@ -416,9 +416,9 @@ export const galleryData: GalleryItem[] = [
 ];
 
 export const priceData = [
-  { title: "Basic Plan", price: "$10/month", features: ["Feature A", "Feature B", "Feature C"] },
-  { title: "Standard Plan", price: "$20/month", features: ["Feature A", "Feature B", "Feature C", "Feature D"] },
-  { title: "Standard Plan", price: "$20/month", features: ["Feature A", "Feature B", "Feature C", "Feature D"] },
+  { title: "GRADUATION", price: "300rb DISCOUNT up to 30% only 200rb", features: ["Unlimited photo", "Free edit 5 file best photo", "File via G Drive", "1jam photo session"] },
+  { title: "ENGANGEMENT", price: "350rb DISCOUNT up to 28% only 250rb", features: ["Unlimited photo", "Free edit 5 file best photo", "File via G Drive", "2jam photo session"] },
+  { title: "PREWEDDING", price: "400rb DISCOUNT up to 25% only 300rb", features: ["Outdoor photo session", "Unlimited photo", "Free edit 10 file best photo", "File via G Drive", "2jam photo session"] },
   { title: "Standard Plan", price: "$20/month", features: ["Feature A", "Feature B", "Feature C", "Feature D"] },
   { title: "Standard Plan", price: "$20/month", features: ["Feature A", "Feature B", "Feature C", "Feature D"] },
   { title: "Premium Plan", price: "$30/month", features: ["Feature A", "Feature B", "Feature C", "Feature D", "Feature E"] }
