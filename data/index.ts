@@ -224,40 +224,22 @@ export const socialMedia = [
 
 export const services = [
   {
-    title: "Stripe",
+    title: "Photo Graduation",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "Wisuda adalah momen sekali seumur hidup, penuh kebanggaan dan pencapaian! Dengan layanan photo graduation, setiap senyuman, sorot bangga, dan pelukan bahagia akan kami abadikan secara profesional. ",
+    link: "/price",
   },
   {
-    title: "Netflix",
+    title: "Engagement",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "Momen lamaran adalah langkah pertama menuju perjalanan cinta yang abadi. Layanan foto engagement kami hadir untuk menangkap setiap tatapan penuh kasih dan momen spesial di hari Anda berdua. ",
+    link: "/price",
   },
   {
-    title: "Google",
+    title: "Prewedding",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
-  },
-  {
-    title: "Meta",
-    description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
-  },
-  {
-    title: "Amazon",
-    description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
-  },
-  {
-    title: "Microsoft",
-    description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "Siapkan momen pernikahan Anda dengan sesi prewedding yang tak hanya romantis, tapi juga penuh keajaiban!. Wujudkan foto prewedding yang bukan hanya foto biasa, tapi sebuah karya yang menyimpan cerita cinta Anda. ",
+    link: "/price",
   },
 ];
 
@@ -331,31 +313,31 @@ export const galleryData: GalleryItem[] = [
   },
   {
     title: "Fashion Items",
-    src: "/p1.webp",
+    src: "/graduation1.webp",
     category: "Graduation",
     description: "Stylish fashion photography"
   },
   {
     title: "Fashion Items",
-    src: "/p1.webp",
+    src: "/graduation2.webp",
     category: "Graduation",
     description: "Stylish fashion photography"
   },
   {
     title: "Fashion Items",
-    src: "/p1.webp",
+    src: "/graduation3.webp",
     category: "Graduation",
     description: "Stylish fashion photography"
   },
   {
     title: "Fashion Items",
-    src: "/p1.webp",
+    src: "/graduation4.webp",
     category: "Graduation",
     description: "Stylish fashion photography"
   },
   {
     title: "Fashion Items",
-    src: "/p1.webp",
+    src: "/graduation5.webp",
     category: "Graduation",
     description: "Stylish fashion photography"
   },
@@ -416,10 +398,16 @@ export const galleryData: GalleryItem[] = [
 ];
 
 export const priceData = [
-  { title: "GRADUATION", price: "300rb DISCOUNT up to 30% only 200rb", features: ["Unlimited photo", "Free edit 5 file best photo", "File via G Drive", "1jam photo session"] },
-  { title: "ENGANGEMENT", price: "350rb DISCOUNT up to 28% only 250rb", features: ["Unlimited photo", "Free edit 5 file best photo", "File via G Drive", "2jam photo session"] },
-  { title: "PREWEDDING", price: "400rb DISCOUNT up to 25% only 300rb", features: ["Outdoor photo session", "Unlimited photo", "Free edit 10 file best photo", "File via G Drive", "2jam photo session"] },
-  { title: "Standard Plan", price: "$20/month", features: ["Feature A", "Feature B", "Feature C", "Feature D"] },
-  { title: "Standard Plan", price: "$20/month", features: ["Feature A", "Feature B", "Feature C", "Feature D"] },
-  { title: "Premium Plan", price: "$30/month", features: ["Feature A", "Feature B", "Feature C", "Feature D", "Feature E"] }
+  { title: "GRADUATION", price: "300rb only 200rb", discount: "DISCOUNT up to 30%", features: ["Unlimited photo", "Free edit 5 file best photo", "File via G Drive", "1jam photo session"] },
+  { title: "ENGAGEMENT", price: "350rb only 250rb", discount: "DISCOUNT up to 28%", features: ["Unlimited photo", "Free edit 5 file best photo", "File via G Drive", "2jam photo session"] },
+  { title: "PREWEDDING", price: "400rb only 300rb", discount: "DISCOUNT up to 25%", features: ["Outdoor photo session", "Unlimited photo", "Free edit 10 file best photo", "File via G Drive", "2jam photo session"] },
+];
+
+export const technologies = [
+  { name: 'Photosop', icon: '/photoshop-icon.png', color: 'text-emerald-400' },
+  { name: 'Illustrator', icon: '/illustrator-icon.png', color: 'text-emerald-400' },
+  { name: 'Lightroom', icon: '/lightroom-icon.png', color: 'text-pink-500' },
+  { name: 'Coreldraw', icon: '/coreldraw-icon.png', color: 'text-blue-400' },
+  { name: 'Canva', icon: '/canva-icon.png', color: 'text-white' },
+  { name: 'Snapseed', icon: '/snapseed-icon.png', color: 'text-white' },
 ];

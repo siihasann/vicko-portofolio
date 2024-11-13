@@ -5,7 +5,7 @@ import HomeContactButton from "../ui/ContactButton";
 
 const Hero = () => {
   return (
-    <div className="pb-10 pt-48">
+    <div className="pb-10 lg:pt-24 pt-48">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
