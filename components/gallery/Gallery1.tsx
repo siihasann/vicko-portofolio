@@ -27,7 +27,7 @@ const Gallery1 = () => {
                     <div className="absolute top-0 bottom-0 right-0 w-8 bg-gradient-to-l from-gray-900 opacity-60 pointer-events-none"></div>
 
                     {/* Category Filter Buttons */}
-                    <div className="flex justify-center gap-4 overflow-x-auto scrollbar-hide px-8 py-2">
+                    <div className="flex justify-start lg:justify-center gap-4 overflow-x-auto scrollbar-hide px-8 py-2 scroll-smooth scroll-padding-x-8">
                         {categories.map((category) => (
                             <button
                                 key={category}
