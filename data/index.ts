@@ -277,147 +277,261 @@ export interface GalleryItem {
 
 export const galleryData: GalleryItem[] = [
   {
-    title: "Nature Photography",
-    src: "/p1.webp",
-    category: "Nature",
-    description: "Beautiful landscape photography"
-  },
-  {
-    title: "Product Showcase",
-    src: "/p1.webp",
-    category: "Product",
-    description: "Professional product photography"
-  },
-  {
-    title: "Mountain View",
-    src: "/p1.webp",
-    category: "Nature",
-    description: "Stunning mountain scenery"
-  },
-  {
-    title: "Tech Gadgets",
-    src: "/p1.webp",
-    category: "Product",
-    description: "Modern technology products"
-  },
-  {
-    title: "Landscape Shot",
-    src: "/p1.webp",
-    category: "Nature",
-    description: "Amazing natural landscapes"
-  },
-  {
-    title: "Landscape Shot",
-    src: "/p1.webp",
-    category: "Nature",
-    description: "Amazing natural landscapes"
-  },
-  {
-    title: "Landscape Shot",
-    src: "/aw2.jpg",
+    title: "Wedding Photo",
+    src: "/wed(1).jpg",
     category: "Wedding",
     description: "Amazing natural landscapes"
   },
   {
-    title: "Landscape Shot",
-    src: "/aw2.jpg",
+    title: "Wedding Photo",
+    src: "/wed(2).jpg",
     category: "Wedding",
     description: "Amazing natural landscapes"
   },
   {
-    title: "Landscape Shot",
-    src: "/aw2.jpg",
+    title: "Wedding Photo",
+    src: "/wed(3).jpg",
     category: "Wedding",
     description: "Amazing natural landscapes"
   },
   {
-    title: "Landscape Shot",
-    src: "/aw2.jpg",
+    title: "Wedding Photo",
+    src: "/wed(4).jpg",
     category: "Wedding",
     description: "Amazing natural landscapes"
   },
   {
-    title: "Fashion Items",
+    title: "Wedding Photo",
+    src: "/wed(5).jpg",
+    category: "Wedding",
+    description: "Amazing natural landscapes"
+  },
+  {
+    title: "Wedding Photo",
+    src: "/wed(6).jpg",
+    category: "Wedding",
+    description: "Amazing natural landscapes"
+  },
+  {
+    title: "Wedding Photo",
+    src: "/wed(7).jpg",
+    category: "Wedding",
+    description: "Amazing natural landscapes"
+  },
+  {
+    title: "Wedding Photo",
+    src: "/wed(8).jpg",
+    category: "Wedding",
+    description: "Amazing natural landscapes"
+  },
+  {
+    title: "Wedding Photo",
+    src: "/wed(9).jpg",
+    category: "Wedding",
+    description: "Amazing natural landscapes"
+  },
+  {
+    title: "Wedding Photo",
+    src: "/wed(10).jpg",
+    category: "Wedding",
+    description: "Amazing natural landscapes"
+  },
+  {
+    title: "Wedding Photo",
+    src: "/wed(11).jpg",
+    category: "Wedding",
+    description: "Amazing natural landscapes"
+  },
+  {
+    title: "Wedding Photo",
+    src: "/wed(12).jpg",
+    category: "Wedding",
+    description: "Amazing natural landscapes"
+  },
+  {
+    title: "Wedding Photo",
+    src: "/wed(13).jpg",
+    category: "Wedding",
+    description: "Amazing natural landscapes"
+  },
+  {
+    title: "Wedding Photo",
+    src: "/wed(14).jpg",
+    category: "Wedding",
+    description: "Amazing natural landscapes"
+  },
+  {
+    title: "Graduation (Wisuda)",
     src: "/graduation1.webp",
     category: "Graduation",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
+    title: "Graduation (Wisuda)",
     src: "/graduation2.webp",
     category: "Graduation",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
+    title: "Graduation (Wisuda)",
     src: "/graduation3.webp",
     category: "Graduation",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
+    title: "Graduation (Wisuda)",
     src: "/graduation4.webp",
     category: "Graduation",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
+    title: "Graduation (Wisuda)",
     src: "/graduation5.webp",
     category: "Graduation",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
-    src: "/p1.webp",
+    title: "Graduation (Wisuda)",
+    src: "/graduation6.jpg",
     category: "Graduation",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
-    src: "/p1.webp",
+    title: "Graduation (Wisuda)",
+    src: "/graduation7.jpg",
+    category: "Graduation",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Private Photo",
+    src: "/private1.jpg",
     category: "Private Foto",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
-    src: "/p1.webp",
+    title: "Private Photo",
+    src: "/private2.jpg",
     category: "Private Foto",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
-    src: "/p1.webp",
+    title: "Private Photo",
+    src: "/private3.jpg",
     category: "Private Foto",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
-    src: "/p1.webp",
+    title: "Private Photo",
+    src: "/private4.jpg",
     category: "Private Foto",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
-    src: "/p1.webp",
+    title: "Private Photo",
+    src: "/private5.jpg",
     category: "Private Foto",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
-    src: "/p1.webp",
-    category: "Private Foto",
+    title: "Prewedding Photo",
+    src: "/prewed(1).jpg",
+    category: "Prewedding",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
-    src: "/p1.webp",
-    category: "Private Foto",
+    title: "Prewedding Photo",
+    src: "/prewed(2).jpg",
+    category: "Prewedding",
     description: "Stylish fashion photography"
   },
   {
-    title: "Fashion Items",
-    src: "/p1.webp",
-    category: "Product",
+    title: "Prewedding Photo",
+    src: "/prewed(3).jpg",
+    category: "Prewedding",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Prewedding Photo",
+    src: "/prewed(4).jpg",
+    category: "Prewedding",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Prewedding Photo",
+    src: "/prewed(5).jpg",
+    category: "Prewedding",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Lamaran Photo",
+    src: "/lamaran(1).jpg",
+    category: "Lamaran",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Lamaran Photo",
+    src: "/lamaran(2).jpg",
+    category: "Lamaran",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Lamaran Photo",
+    src: "/lamaran(3).jpg",
+    category: "Lamaran",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Lamaran Photo",
+    src: "/lamaran(4).jpg",
+    category: "Lamaran",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Lamaran Photo",
+    src: "/lamaran(5).jpg",
+    category: "Lamaran",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Lamaran Photo",
+    src: "/lamaran(6).jpg",
+    category: "Lamaran",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Another Photo Job",
+    src: "/anotherjob(1).jpg",
+    category: "Another Job",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Another Photo Job",
+    src: "/anotherjob(2).jpg",
+    category: "Another Job",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Another Photo Job",
+    src: "/anotherjob(3).jpg",
+    category: "Another Job",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Another Photo Job",
+    src: "/anotherjob(4).jpg",
+    category: "Another Job",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Another Photo Job",
+    src: "/anotherjob(5).jpg",
+    category: "Another Job",
+    description: "Stylish fashion photography"
+  },
+  {
+    title: "Another Photo Job",
+    src: "/anotherjob(6).jpg",
+    category: "Another Job",
     description: "Stylish fashion photography"
   },
 ];
