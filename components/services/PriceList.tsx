@@ -11,7 +11,7 @@ const PriceList = () => {
                         key={index}
                         className="bg-neutral-200 dark:bg-slate-900 text-white p-6 rounded-lg shadow-lg relative overflow-hidden hover:scale-105 transition-transform duration-300"
                     >
-                        <h2 className="text-2xl font-bold mb-2 text-yellow-400 uppercase tracking-wide">{plan.title}</h2>
+                        <h2 className="text-2xl font-bold mb-2 text-purple uppercase tracking-wide">{plan.title}</h2>
                         
                         {/* Display discount text */}
                         <p className="text-sm text-gray-400 mb-2">{plan.discount}</p>
@@ -19,7 +19,7 @@ const PriceList = () => {
                         {/* Display the original and discounted prices */}
                         <p className="text-3xl font-semibold mb-4">
                             <span className="line-through text-gray-400 mr-2">{plan.price.split(" only ")[0]}</span>
-                            <span className="text-green-400">{plan.price.split(" only ")[1]}</span>
+                            <span className="text-blue-500">{plan.price.split(" only ")[1]}</span>
                         </p>
 
                         <ul className="mb-4 space-y-2">
@@ -32,7 +32,7 @@ const PriceList = () => {
                         </ul>
 
                         <p className="text-gray-400 text-sm mb-6">
-                            Get access to all the essential features for your needs.
+                            Pesan sekarang dengan klik tombol di bawah ini
                         </p>
                         
                         <ContactButtonPesan />
