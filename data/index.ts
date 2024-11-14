@@ -463,39 +463,39 @@ export const galleryData: GalleryItem[] = [
     description: "Stylish fashion photography"
   },
   {
-    title: "Lamaran Photo",
+    title: "Engangement Photo",
     src: "/lamaran(1).jpg",
-    category: "Lamaran",
+    category: "Engangement",
     description: "Stylish fashion photography"
   },
   {
-    title: "Lamaran Photo",
+    title: "Engangement Photo",
     src: "/lamaran(2).jpg",
-    category: "Lamaran",
+    category: "Engangement",
     description: "Stylish fashion photography"
   },
   {
-    title: "Lamaran Photo",
+    title: "Engangement Photo",
     src: "/lamaran(3).jpg",
-    category: "Lamaran",
+    category: "Engangement",
     description: "Stylish fashion photography"
   },
   {
-    title: "Lamaran Photo",
+    title: "Engangement Photo",
     src: "/lamaran(4).jpg",
-    category: "Lamaran",
+    category: "Engangement",
     description: "Stylish fashion photography"
   },
   {
-    title: "Lamaran Photo",
+    title: "Engangement Photo",
     src: "/lamaran(5).jpg",
-    category: "Lamaran",
+    category: "Engangement",
     description: "Stylish fashion photography"
   },
   {
-    title: "Lamaran Photo",
+    title: "Engangement Photo",
     src: "/lamaran(6).jpg",
-    category: "Lamaran",
+    category: "Engangement",
     description: "Stylish fashion photography"
   },
   {
