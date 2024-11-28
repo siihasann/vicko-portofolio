@@ -534,6 +534,36 @@ export const galleryData: GalleryItem[] = [
     category: "Another Job",
     description: "Stylish fashion photography"
   },
+  {
+    title: "Product Photo",
+    src: "/product1.webp",
+    category: "Product",
+    description: ""
+  },
+  {
+    title: "Product Photo",
+    src: "/product2.webp",
+    category: "Product",
+    description: ""
+  },
+  {
+    title: "Product Photo",
+    src: "/product3.webp",
+    category: "Product",
+    description: ""
+  },
+  {
+    title: "Product Photo",
+    src: "/product4.webp",
+    category: "Product",
+    description: ""
+  },
+  {
+    title: "Product Photo",
+    src: "/product5.webp",
+    category: "Product",
+    description: ""
+  },
 ];
 
 export const priceData = [
