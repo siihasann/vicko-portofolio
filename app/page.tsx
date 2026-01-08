@@ -13,15 +13,15 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav
           navItems={[
-            {name: 'Home', link: '/', icon: <FaHome />},
-            { name: 'About', link: '/about', icon: <FaUser /> },
-            {name: 'Pricelist', link: '/price', icon:  <FaHome/>},
-            {name: 'Gallery', link: '/gallery', icon: <FaHome />},
+            { name: "Home", link: "/", icon: <FaHome /> },
+            { name: "About", link: "/about", icon: <FaUser /> },
+            { name: "Pricelist", link: "/price", icon: <FaHome /> },
+            { name: "Gallery", link: "/gallery", icon: <FaHome /> },
           ]}
         />
         <Hero />
         <HomeAbout />
-        <RecentProject />
+        {/* <RecentProject /> */}
         <Testimonial />
         <Services />
         <Footer />
