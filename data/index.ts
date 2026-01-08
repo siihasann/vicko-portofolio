@@ -319,7 +319,7 @@ export const galleryData: GalleryItem[] = [
   },
   {
     title: "Wedding Photo",
-    src: "/wed(8).jpg",
+    src: "/wed(8).jpeg",
     category: "Wedding",
     description: "Amazing natural landscapes",
   },
