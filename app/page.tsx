@@ -1,6 +1,5 @@
 import Hero from "@/components/home/Hero";
 import HomeAbout from "@/components/home/HomeAbout";
-import RecentProject from "@/components/home/RecentProject";
 import Services from "@/components/home/Services";
 import Testimonial from "@/components/home/Testimonial";
 import { FloatingNav } from "@/components/ui/FloatingNav";
